@@ -1,0 +1,19 @@
+[package]
+org = "ballerinax"
+name = "db2.driver"
+version = "0.1.0"
+authors = ["Ballerina"]
+keywords = ["Db2", "DB2", "IBM", "Vendor/IBM", "Area/Database", "Type/Driver"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-db2.driver"
+icon = "icon.png"
+license = ["Apache-2.0"]
+distribution = "2201.13.0"
+
+[platform.java21]
+graalvmCompatible = false
+
+[[platform.java21.dependency]]
+groupId = "com.ibm.db2"
+artifactId = "jcc"
+version = "12.1.5.0"
+path = "./lib/jcc-12.1.5.0.jar"
