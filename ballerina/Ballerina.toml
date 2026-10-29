@@ -1,10 +1,10 @@
 [package]
 org = "ballerinax"
-name = "db2.driver"
+name = "ibm.db2.driver"
 version = "0.1.0"
 authors = ["Ballerina"]
-keywords = ["Db2", "DB2", "IBM", "Vendor/IBM", "Area/Database", "Type/Driver"]
-repository = "https://github.com/ballerina-platform/module-ballerinax-db2.driver"
+keywords = ["Db2", "DB2", "IBM", "Name/IBM Db2", "Vendor/IBM", "Area/Database", "Type/Driver"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-ibm.db2.driver"
 icon = "icon.png"
 license = ["Apache-2.0"]
 distribution = "2201.13.0"

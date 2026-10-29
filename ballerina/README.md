@@ -1,7 +1,7 @@
 ## Overview
 
 This package bundles the IBM Data Server Driver for JDBC and SQLJ (JCC, type 4) so that the
-[`ballerinax/db2`](https://central.ballerina.io/ballerinax/db2) connector can reach IBM Db2 for LUW,
+[`ballerinax/ibm.db2`](https://central.ballerina.io/ballerinax/ibm.db2) connector can reach IBM Db2 for LUW,
 Db2 for z/OS and Db2 for i servers without any extra driver configuration.
 
 ## Compatibility
@@ -16,8 +16,8 @@ Db2 for z/OS and Db2 for i servers without any extra driver configuration.
 Import the driver package alongside the connector:
 
 ```ballerina
-import ballerinax/db2;
-import ballerinax/db2.driver as _;
+import ballerinax/ibm.db2;
+import ballerinax/ibm.db2.driver as _;
 ```
 
 The IBM JCC driver is distributed under the IBM International Program License Agreement (IPLA).
